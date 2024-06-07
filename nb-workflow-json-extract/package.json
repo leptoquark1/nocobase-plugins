@@ -1,0 +1,26 @@
+{
+  "name": "@leptoquark1/nb-workflow-json-extract",
+  "version": "1.0.0",
+  "displayName": "Workflow: JSON Extract",
+  "description": "Extract JSON Values from workflow scope",
+  "author": "David Fecke (leptoquark1)",
+  "license": "MIT",
+  "homepage": "//e-ye.co/ok~nb/workflow-json-extract",
+  "main": "dist/server/index.js",
+  "keywords": ["Workflow"],
+  "devDependencies": {
+    "lodash": "^4"
+  },
+  "peerDependencies": {
+    "@nocobase/client": "1.x",
+    "@nocobase/server": "1.x",
+    "@nocobase/test": "1.x",
+    "@nocobase/plugin-workflow": ">=0.17.0-alpha.3",
+    "@nocobase/utils": "1.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+github.com/leptoquark1/nocobase-plugins.git",
+    "directory": "nb-workflow-json-extract"
+  }
+}
