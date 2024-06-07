@@ -1,11 +1,9 @@
 import { Plugin } from '@nocobase/server';
-import WorkflowPlugin from '@nocobase/plugin-workflow/src/server/Plugin';
+import WorkflowPlugin from '@nocobase/plugin-workflow';
 import { JsonExtract } from './JsonExtract';
 import { deDE, enUS, NAMESPACE } from '../locale';
 
 export class Leptoquark1WorkflowJsonExtractServer extends Plugin {
-  async afterAdd() {}
-
   async beforeLoad() {
     this.app.i18n.addResources('en-US', NAMESPACE, enUS);
     this.app.i18n.addResources('de-DE', NAMESPACE, deDE);
