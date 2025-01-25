@@ -1,6 +1,4 @@
-# Nocobase Plugins
-
-*by [leptoquark1](https://github.com/leptoquark1)*
+# leptoquark1 Nocobase Plugins
 
 ## Plugins
 
