@@ -5,7 +5,7 @@
   "description": "Extract JSON Values from workflow scope",
   "author": "David Fecke (leptoquark1)",
   "license": "MIT",
-  "homepage": "//e-ye.co/ok~nb/workflow-json-extract",
+  "homepage": "//github.com/leptoquark1/nocobase-plugins",
   "main": "dist/server/index.js",
   "keywords": ["Workflow"],
   "devDependencies": {
